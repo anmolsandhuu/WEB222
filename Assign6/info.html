@@ -1,0 +1,100 @@
+<!doctype html>
+<head>
+    <meta charset="UFT-8">
+    <title>Sandhu</title>
+   <link rel="stylesheet" href="normalize.css">
+   <script src="info.js"></script>
+</head>
+<body class="body" id="body"></body>
+<h1 class = "h1" id="h1" >Seneca Hub</h1>
+
+<div class="nav" >
+    <ul>
+        <li><a href="honesty.html">Home</a></li>
+        <li><a class="active" href="#">Login</a></li>
+        
+    </ul>
+</div>
+
+<section class="group">
+<nav class = "lpanel" id="lpanel">
+        <ul class="side">
+                <li><a class="llink" href="https://www.amazon.ca/">Amazon</a></li>
+                <li><a class="llink" href="https://www.w3schools.com/default.asp">w3schools</a></li>
+                <li><a class="llink" href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+                <li><a class="llink" href="https://www.ebay.ca/">Ebay</a></li>
+                <li><a class="llink" href="https://www.walmart.ca/en">Walmart.ca</a></li>
+                <li><a class="llink" href="https://www.etsy.com/ca/?ref=lgo">Etsy</a></li>
+            </ul>
+</nav>
+
+
+<div class="rpanel" id="rpanel">
+  
+    <ul class="side">
+        <li><a class="rlink" href="https://www.aliexpress.com/">AliExpress</a></li>
+        <li><a class="rlink" href="https://www.sportchek.ca/">SportChek</a></li>
+        <li><a class="rlink" href="https://toronto.craigslist.ca/">Craigslist</a></li>
+        <li><a class="rlink" href="https://www.chapters.indigo.ca/en-ca/">Indigo</a></li>
+        <li><a class="rlink" href="https://www.apple.com/ca/">Apple</a></li>
+        <li><a class="rlink" href="https://www.samsung.com/ca/">Samsung</a></li>
+    </ul>
+</div>
+
+
+<div class="main1"> 
+        <form id="form" name="form" class="form" action="https://httpbin.org/post" method="POST" onclick="return formValidation()" >
+            <label for="fname">First Name</label>
+            <input type="text" id="fname"  placeholder="First name" required="required"  autofocus><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Last name"  required="required" autofocus><br>
+
+            <label for="usernmae">Username</label>
+            <input type="username" id="user" name="username" placeholder="Username" required="required"><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="pass" placeholder="Password" name="password" required="required"><br>
+
+            <label for="password">Confirm Password</label>
+            <input type="password" id="cpass" placeholder="Confirm Password" name="cpassword" required="required"><br><br>
+
+            <label for="edu">Education Level</label>
+            <select class="edu" id="edulevel" placeholder="Select one">
+                <option value="/0">Select</option>
+                <option value="Technical Diploma" id="elevel"> Technical Diploma</option>
+                <option value="College Diploma" id="elevel"> College Diploma</option>
+                <option value="Bachelor's Degree" id="elevel"> Bachelor's Degree</option>
+                <option value="Master's Degree" id="elevel">Master's Degree</option>
+                <option value="Others" id="elevel"> Others</option>
+            </select><br><br>
+
+            <label for="edul">Education Status:</label>
+            <br>
+            Graduated<input type="radio" name="status" value="Graduated" id="estatus"> 
+            Current enrolled <input type="radio" name ="status"value="Current enrolled" id="estatus"> 
+            Did not graduate<input type="radio" name = "stat"value="Did not graduate" id="estatus">  <br>
+           
+            <label for="email" >E-mail</label>
+            <input type="email" id="email" placeholder="E-mail" required="required"><br>
+
+            <label for="age">Age</label>
+            <input type="number" min="18" max="60" id="age" placeholder="Age (18-60)" required="required"><br>
+
+            <input type="hidden" name="lastName" id="lastName" value="Sandhu" />
+            <input type="hidden" name="studentId" id="studentId" value="135051175" />
+
+            <button type="submit" class="submit" value="submit" >Submit</button>
+            <button type="reset" class="reset" value="reset" onclick="clearErr()"> Reset </button>
+        </form>
+</div>
+
+</body>
+
+</section>
+
+<footer class="foot">
+    <p class="footc">© 2018 AnmolSandhu</p>
+</footer>
+
+</html>    

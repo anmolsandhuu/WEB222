@@ -1,0 +1,162 @@
+/*I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructor and / or made available in this assignment for my use. I also declare that no part of this assignment has been distributed to other students.
+                Name: Anmol Singh Sandhu
+                Dated: 6 December 2018 
+                */
+.h1
+{
+    font-size: 50px;
+    list-style-type: none;
+    text-align: center;
+    color: rgb(225, 226, 228);
+    height: 80px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin: 0%;
+    
+    
+    
+     
+}
+.lpanel {
+    height: 500px; /* Specify a height */
+    width: 15%; /* 0 width - change this with JavaScript */
+    float: left;
+    background-color: rgb(68, 60, 60);
+    padding: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    
+}
+
+
+.main {
+    color: antiquewhite;
+    height: 475px; 
+    width: 63.0%; /* 0 width - change this with JavaScript */
+    float: left;
+    background-color: #333; /* Black*/
+    padding: 1%;
+}
+
+.main1 {
+    color: antiquewhite;
+    height: auto; 
+    width: 63.0%; /* 0 width - change this with JavaScript */
+    float: left;
+    background-color: #333; /* Black*/
+    padding: 1%;
+}
+
+.rpanel {
+    height: 500px; /* Specify a height */
+    width: 20%; /* 0 width - change this with JavaScript */
+    position: auto; /* Stay in place */
+    float: right;
+    background-color: rgb(68, 60, 60); /* Black*/
+    padding: 0%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+}
+.side
+{
+    text-align: center;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(68, 60, 60);
+
+}
+.side li a
+{
+    display: block;
+    color: rgb(138, 138, 138);
+    padding: 30px 40px;
+    text-decoration: none;
+}
+.side li a:hover
+{
+    background-color: #555;
+    color: white;
+}
+
+.foot {
+    height: 10%;
+    width: 98%;
+    overflow-x: hidden;
+    padding: 1%;
+    margin-top: 10%;
+}
+
+.footc
+{
+    color: white;
+    text-align: center;
+    font: arial;
+    font-style: oblique;
+}
+
+body
+{
+background-image:url("img/paper1.jpg");
+background-attachment: scroll;
+}
+
+.nav
+{
+    border: 2px;
+    border-color: black;
+
+}
+.nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover
+{
+    background-color: #111;
+}
+
+input
+{
+    width: 100%
+}
+input[type=text], [type=radio], [type=password], [type=email], [type=number], [type=username],  select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: rgb(14, 15, 14);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
